@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths>
+
+    <!--path：需要临时授权访问的路径（.代表所有路径）
+    name：就是你给这个访问路径起个名字-->
+    <!--为了适配所有路径可以设置 path = "." -->
+    <external-path path="." name="external_storage_root" />
+    <files-path path="." name="files_path" />
+    <cache-path path="." name="cache_path" />
+
+</paths>
